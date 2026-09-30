@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Sustained Neural Representations of Personally Familiar People and Places During Cued Recall",
-  "description": "This dataset comprises MEG recordings collected to investigate the sustained neural representations of personally familiar people and places during a cued recall task. Participants were cued to recall familiar individuals and locations while brain activity was measured to examine the temporal dynamics of memory-related representations.",
+  "description": "This dataset contains magnetoencephalography (MEG) recordings from participants performing a cued recall task involving personally familiar people and places. It was collected to examine sustained neural representations of familiar people and places during recall. The data are organized in BIDS format.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,7 +18,15 @@
       "term": "MEG"
     },
     {
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+    },
+    {
       "term": "cued recall"
+    },
+    {
+      "term": "familiarity"
     },
     {
       "term": "Memory",
@@ -26,10 +34,7 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
     },
     {
-      "term": "familiarity"
-    },
-    {
-      "term": "neural representation"
+      "term": "person and place representations"
     }
   ],
   "related_identifiers": [
@@ -72,7 +77,7 @@
     "meg"
   ],
   "sizes": [
-    "82.4 GB (429 files)"
+    "76.70 GB (429 files)"
   ],
   "formats": [
     ".acq",
